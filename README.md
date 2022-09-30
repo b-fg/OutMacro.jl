@@ -2,18 +2,18 @@
 
 OutMacro.jl packages the `@out` macro which mimics `@show` but breaking the output in multiple lines for a prettier display (similarly to `display(x)`).
 
-It is specially useful for debugging variables in the REPL: arrays get their variable name displayed together with the size and a pretty output for their values. Still, the printed output is not "copy-paste" ready in the REPL, which is the main reason this was not finally included in `@show`.
+It is specially useful for debugging variables in the REPL: arrays get their variable name displayed together with the size and a pretty output for their values. Still, the printed output is not "copy-paste"-ready in the REPL, which is the main reason this was not finally included in `@show`.
 
 ## Installation and usage
 
 You can install `OutMacro.jl` in Julia using:
 ```julia
-julia> using Pkg; Pkg.add("OutMacro")
+julia> using Pkg; Pkg.add("https://github.com/b-fg/OutMacro.jl")
 ```
 
 And use it in your code with:
 ```julia
-using Out
+using OutMacro
 ```
 
 ## Examples
