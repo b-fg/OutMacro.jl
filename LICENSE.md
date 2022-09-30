@@ -1,4 +1,4 @@
-The Out.jl package is licensed under the MIT "Expat" License:
+The OutMacro.jl package is licensed under the MIT "Expat" License:
 
 > Copyright (c) 2022: Bernat Font.
 >

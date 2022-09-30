@@ -1,4 +1,4 @@
-using Out, Test
+using OutMacro, Test
 
 @testset "Output matrix by lines" begin
     let fname = tempname()

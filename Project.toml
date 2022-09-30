@@ -1,7 +1,7 @@
-name = "Out"
+name = "OutMacro"
 uuid = "0ae4d431-9932-4135-a8f1-51ee5e017775"
 authors = ["Bernat Font <bernatfontgarcia@gmail.com>"]
-repo = "https://github.com/b-fg/Out.jl.git"
+repo = "https://github.com/b-fg/OutMacro.jl.git"
 version = "0.1.0"
 
 [deps]

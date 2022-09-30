@@ -1,4 +1,4 @@
-module Out
+module OutMacro
 
 """
     out(exs...)
