@@ -6,16 +6,11 @@ It is specially useful for debugging variables in the REPL: arrays get their var
 
 ## Installation and usage
 
-You can install `OutMacro.jl` in Julia using:
+`OutMacro.jl` is registered in the official Julia package registry and it can be installed and used with:
 ```julia
-julia> using Pkg; Pkg.add("https://github.com/b-fg/OutMacro.jl")
+julia> using Pkg; Pkg.add("OutMacro")
+julia> using OutMacro
 ```
-
-And use it in your code with:
-```julia
-using OutMacro
-```
-
 ## Examples
 
 Single variable:
